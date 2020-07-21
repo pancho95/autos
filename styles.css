@@ -18,6 +18,8 @@
     padding:0;
     box-sizing: border-box;
     font-family: Helvetica,Helvetica,sans-serif;
+    line-height: 1.15;
+    text-size-adjust: 100%;
 }
 
 body,html{
@@ -63,6 +65,7 @@ body,html{
 
 
 .link{
+  position: relative;
   font-size: 20px;
   color: #001E50;
   padding-bottom: 2px;
@@ -83,11 +86,40 @@ body,html{
 
 
 .title-section{
-  font-size: 50px;
-  margin-bottom: 50px
+  font-size: 48px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 
 .bicicletas h2{
   font-size: 50px;
+}
+
+
+
+/* Animation img */
+
+.animated{
+  transition: transform 2.2s cubic-bezier(0.14, 1.12, 0.67, 0.99) 0s;
+}
+
+.animated:hover{
+  transform: scale(1.03);
+}
+
+
+
+
+
+
+/*Footer */
+
+
+.links1,.links2,.links3,.links4 li{
+  list-style: none;
+}
+
+.links1,.links2,.links3,.links4 li a{
+  text-decoration: none;
 }
