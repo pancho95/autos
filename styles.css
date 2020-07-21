@@ -1,0 +1,93 @@
+/*contenedor {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 29px 20px 25px 20px;
+    color: #ffffff;
+}
+.contenedor::before, .contenedor::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ffffff;
+    margin: 0 21px 0 21px;
+}
+*/
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Helvetica,Helvetica,sans-serif;
+}
+
+body,html{
+  height: 100vh;
+}
+
+
+/* Header */
+.header{
+    background-image:url(img/header.jpg);
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.logito{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.logito::after, .logito::before {
+    content: '';
+    flex: 1;
+    /*border-bottom: 2px solid #ffffff;
+    margin: 0 21px 0 21px;*/
+    height: 2px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+}
+
+.logito a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo-w{
+    margin: 0 15px 0 15px;
+}
+
+
+.link{
+  font-size: 20px;
+  color: #001E50;
+  padding-bottom: 2px;
+  border-bottom: 1px solid currentcolor;
+  text-decoration: none;
+}
+
+
+.title-car{
+  margin-top: 30px;
+}
+
+/*Cars*/
+
+.cars{
+  margin-top: 100px;
+}
+
+
+.title-section{
+  font-size: 50px;
+  margin-bottom: 50px
+}
+
+
+.bicicletas h2{
+  font-size: 50px;
+}
