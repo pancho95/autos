@@ -17,7 +17,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    font-family: Helvetica,Helvetica,sans-serif;
+    font-family: Helvetica,Arial,sans-serif;
     line-height: 1.15;
     text-size-adjust: 100%;
 }
@@ -34,6 +34,18 @@ body,html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.amarok{
+  font-size: 76px;
+}
+
+.b-amarok{
+    border-radius: 20px;
+    width: 10rem;
+    padding: 0.5rem;
+    margin-top: 3rem;
+    text-align: center;
 }
 
 
@@ -80,10 +92,84 @@ body,html{
 
 /*Cars*/
 
+
+
 .cars{
   margin-top: 100px;
 }
 
+
+.cars-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 3rem;
+}
+
+
+/*bicicletas */
+
+.bicicletas-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap:1rem;
+
+}
+
+
+
+/*avanzando juntos */
+
+.avance-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap:3rem;
+}
+
+
+
+
+/*empeza tu camino */
+
+.road-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap:3rem;
+}
+
+/*Live container */
+
+.live-container{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 3rem;
+}
+
+
+/*autoahorro container */
+
+.autoahorro-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 3rem;
+}
+
+
+/*parte del camino container */
+
+.road-part-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 3rem;
+}
+
+
+/*Volkswagen informa */
+
+.inform-container{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-gap: 3rem;
+}
 
 .title-section{
   font-size: 48px;
@@ -99,6 +185,8 @@ body,html{
 
 
 /* Animation img */
+
+
 
 .animated{
   transition: transform 2.2s cubic-bezier(0.14, 1.12, 0.67, 0.99) 0s;
