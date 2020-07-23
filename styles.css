@@ -26,6 +26,47 @@ body,html{
   height: 100vh;
 }
 
+.space{
+  word-break:break-all;
+}
+
+/*Menu */
+
+.link-stretch{
+    width: 300px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    color: #001E50;
+    font-size: 15px;
+}
+
+.menu-btn{
+    background:#4cc7f4;
+    width: 64px;
+    transition: width 0.4s 0.1s;
+}
+
+.menu-btn2{
+    cursor: pointer;
+    position: relative;
+    height: 64px;
+    width: 64px;
+    border-radius: 40px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+}
+
+.menu-btn svg{
+    fill: #001E50;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    left: 20px; 
+}
 
 /* Header */
 .header{
