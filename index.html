@@ -11,6 +11,8 @@
     <link rel=”icon” type=”image/icon” href="favicon/favicon.ico" sizes="32x32"/>
     <link rel="stylesheet" href="styles.css">
     <title>Volkswagen Argentina</title>
+    
+    
 </head>
 
 <body>
@@ -18,9 +20,10 @@
     <div class="container-fluid">
       <!--Menu flotante-->
       <div class="fixed-bottom">
-        <div class="float-right">
-          <a class="menu-btn menu-btn2" href="#">
-            <p class="link-stretch">Modelos y configurador</p>
+        <div class="menu-animation">
+          <div class="main">
+            <a id="menubutton1" class="menu-btn menu-btn2" href="#">
+              <p class="link-stretch">Modelos y configurador</p>
               <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img">
               <circle cx="12" cy="15.95" r="1"></circle>
               <path d="M22.12 12.22h-1.45l.24.54v.09l.05.08a4.32 4.32 0 01.58 1.52c-1.5.21-3.06.39-4.67.51l.1 1.32c1.6-.12 3.16-.29 4.66-.5v5.7a.29.29 0 01-.28.28h-2a.28.28 0 01-.28-.28v-1.82H4.89v1.81a.3.3 0 01-.3.29h-2a.28.28 0 01-.28-.28v-5.67c1.54.21 3.13.38 4.77.5L7.19 15a70.09 70.09 0 01-4.78-.5A4.7 4.7 0 013 12.93V12.76l.73-1.66c2.09.25 4.19.4 6.28.46V10.2c-1.9 0-3.81-.16-5.71-.38L5.49 7.3A2.06 2.06 0 017 6.42h3.1V5.09H6.91a3.36 3.36 0 00-2.59 1.58L3 9.66Q1.69 9.5.39 9.27H.33l-.11.66-.06.66c.76.13 1.52.24 2.29.35l-.58 1.29A5.87 5.87 0 001 15.29v6.19a1.61 1.61 0 001.61 1.61h2a1.63 1.63 0 001.63-1.62V21h11.54v.49a1.61 1.61 0 001.61 1.61h2A1.62 1.62 0 0023 21.48v-6.19a5.87 5.87 0 00-.87-3.07z">
@@ -28,8 +31,8 @@
               <path d="M22.67 1.33v8.34h-8.34V1.33zM24 0H13v11h11z"></path>
               <path d="M17.6 8.41l-2.47-2.47.94-.94 1.53 1.53L21.13 3l.94.94z"></path>
               </svg>
-          </a>
-          <a class="menu-btn menu-btn2" href="#">
+            </a>
+            <a id="menubutton2" class="menu-btn menu-btn2" href="#">
             <p class="link-stretch">Pedí tu presupuesto</p>
               <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" role="img">
               <path d="M7 10.33h2v1.33H7zM11 10.33h2v1.33h-2zM7 14.33h2v1.33H7zM11 14.33h2v1.33h-2zM15 10.33h2v1.33h-2zM7 18.33h2v1.33H7zM11 18.33h2v1.33h-2zM15.33 14.5h1.33V20h-1.33z"></path>
@@ -37,24 +40,41 @@
               <path d="M16.67 4.33v2.34H7.33V4.33zM18 3H6v5h12z"></path>
               </svg>
           </a>
-          <a class="menu-btn menu-btn2" href="#">
+          <a id="menubutton3" class="menu-btn menu-btn2" href="#">
             <p class="link-stretch">Encontranos</p>
               <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img">
               <path d="M12 1c4 0 7 3 7 7.1 0 3.1-1.1 6.5-2.9 9.8-1.5 2.8-3.2 5.1-4.1 5.1s-2.6-2.2-4.1-5.1C6.1 14.6 5 11.2 5 8.1 5 4 8 1 12 1zm0 1.3C8.7 2.3 6.3 4.7 6.3 8c0 2.7.9 5.9 2.7 9.2 1.4 2.7 2.5 3.9 3 4.3.5-.4 1.5-1.6 3-4.3 1.8-3.3 2.7-6.5 2.7-9.2 0-3.3-2.4-5.7-5.7-5.7zM12 5c1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3 1.3-3 3-3z"></path>
               </svg>
           </a>
-          <a class="menu-btn menu-btn2" href="#">
+          <a id="menubutton4" class="menu-btn menu-btn2" href="#">
             <p class="link-stretch">Pedí mas información</p>
               <svg height="24" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg" role="img">
               <path d="M21.7.8H11.2c-.8 0-1.5.6-1.5 1.5v3.5c-2.3 0-4.3 1.8-4.5 4.1-.2 2.3 1.5 4.4 3.8 4.8 2.3.4 4.5-1.1 5.1-3.4s-.8-4.6-3-5.3V2.3v-.1h10.6c.1 0 .1 0 .1.1v15.6c0 .1 0 .1-.1.1H18l-.2-1c-.2-1.1-1-2-2-2.4L14 14l-.5 1.2 1.9.7c.6.2 1 .7 1.2 1.4l.8 3.9h-2.3l-.3-2.3-1.3.2.3 2.2c-2.6.1-5.3.1-7.9 0l.1-2.2-1.3-.2-.3 2.3c-.8 0-1.5 0-2.2-.1l.8-3.8c.1-.6.6-1.2 1.2-1.4l1.8-.7-.5-1.2-1.9.7c-1 .4-1.8 1.3-2 2.4l-.8 3.8c-.1.4 0 .8.3 1.1s.6.5 1 .5c2.5.1 5.1.2 7.6.2s5.1-.1 7.6-.2c.4 0 .8-.2 1-.5s.3-.7.3-1.1l-.3-1.5h3.4c.8 0 1.5-.6 1.5-1.5V2.3c0-.8-.7-1.5-1.5-1.5zm-8.9 9.4c0 1.7-1.4 3.1-3.1 3.1-1.7 0-3.1-1.4-3.1-3.1 0-1.7 1.4-3.1 3.1-3.1 1.7 0 3.1 1.4 3.1 3.1z"></path>
               <path d="M15.5 4.4H20v1.3h-4.5zM15.5 7.4H20v1.3h-4.5z"></path>
           </svg>
           </a>
+          </div>
         </div>
       </div>
       <!-- Inicio Header-->
         <div class="row header">
-          <div class="fixed-top">
+          <div class="fixed-top heading">
+            <div class="menu-container">
+              <div class="menu">
+                <div direction="ltr" class="menu-button">
+                  <button aria-hidden="true" class="button-menu" type="button" name="button">
+                    <div class="menu-svg">
+                      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor" role="img"><path d="M0 4h24v2H0zM0 11h14v2H0zM0 18h20v2H0z"></path></svg>
+                    </div>
+                  <div class="menu-text-container">
+                    <div class="menu-text">
+                      Menú
+                    </div>
+                  </div>
+                </button>
+                </div>
+              </div>
+            </div>
               <div class="logito">
                   <span class="logo-w">
                       <a href="#">
@@ -71,7 +91,7 @@
           </div>
         </div>
       <!-- Fin Header -->
-        <div class="container">
+      <div class="content-container">
       <!-- Inicio Contenido autos -->
         <div class="cars">
           <h2 class="text-center title-section"><b>Hay un Volkswagen para vos</b></h2>
@@ -113,7 +133,7 @@
         <div class="avance mt-5">
           <h3 class="title-section"><b>Seguimos Avanzando juntos</b></h3>
           <div class="avance-container">
-            <div class="Ventas">
+            <div class="ventas">
               <img class="img-fluid" src="img/whatsapp.jpg">
               <h4>Whatsapp Ventas y Postventa</h4>
               <h3>Más cerca <b>tuyo. </b>Contactate por Whatsapp con tu concesionario.</h3>
@@ -133,7 +153,7 @@
 
         <!-- Inicio contenido empeza tu camino-->
         <div class="road mt-5">
-          <div class="road-container d-flex justify-content-around">
+          <div class="road-container">
             <div class="imagen-avanzando">
               <img class="img-fluid" src="img/avanzando.jpg">
             </div>
@@ -237,7 +257,8 @@
             </div>
           </div>
           <!-- Fin contenido Volkswagen informa-->
-
+    </div>
+          <!--<div class="container">-->
           <!--Inicio Footer-->
           <div class="footer mt-5">
             <div class="listas d-flex justify-content-between">
@@ -281,9 +302,11 @@
             </div>
           </div>
           <!--Fin footer-->
-        </div>
-    </div>
+        <!--</div>-->
 
+    </div>
+    <script src="app.js"></script>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
